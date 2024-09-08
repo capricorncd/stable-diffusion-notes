@@ -1,0 +1,20 @@
+{
+  "name": "stable-diffusion-notes",
+  "version": "1.0.0",
+  "description": "stable diffusion notes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev src --open",
+    "build": "vitepress build src --base ./ --outDir docs",
+    "preview": "vitepress preview docs",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "inquirer": "^9.2.18",
+    "vitepress": "^1.3.4"
+  },
+  "author": "Capricorncd<capricorncd@qq.com>",
+  "license": "MIT"
+}
